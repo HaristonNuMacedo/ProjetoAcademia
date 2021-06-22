@@ -8,12 +8,64 @@
     
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px){
+
+    .season3 {
+        width: 90%;
+        left: 50px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 33%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 2px;
+    }
+
+    div.col:nth-child(2){
+        margin-left: 0px;
+    }
+
+    div.col:nth-child(3){
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px){
+
+    .season3 {
+        width: 94%;
+        left: 25px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 32%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 10px;
+    }
+
+    div.col:nth-child(2){
+        margin-left: 0px;
+    }
+
+    div.col:nth-child(3){
+        margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 850px){
 
     .season3 {
         width: 90%;
         left: 35px;
-        display: inline-block;
+        display: flex;
     }
 
     div.col{
@@ -21,15 +73,15 @@
     }
 
     div.col:nth-child(1){
-        margin-left: 250px;
+        margin-left: 15px;
     }
 
     div.col:nth-child(2){
-        margin-left: 250px;
+        margin-left: 40px;
     }
 
     div.col:nth-child(3){
-        margin-left: 250px;
+        margin-left: 215px;
     }
     
 }
