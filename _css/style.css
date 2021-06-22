@@ -1,0 +1,50 @@
+
+.season2{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    text-align: center;
+    width: 100%;
+    background-color: #212529;
+    color:white;
+    font-size: 30px;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+/* ARRUMAR OS BOTÕES DO SITE DE COM ESTILO DO BOTÃO DO HOTEL */
+
+
+.season3{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25PX;
+    
+    left: 120px;
+    margin-right: 0px;
+    width: 80%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+div.col{
+    width: 30%;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+div.col:nth-child(1){
+    margin-left: 70px;
+}
+
+div.col:nth-child(3){
+    margin-right: 0px;
+}
