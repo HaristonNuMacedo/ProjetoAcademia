@@ -1,6 +1,60 @@
 
+@media screen and (max-width: 3900px){
 
-@media screen and (min-width: 1440px){
+    .season3 {
+        width: 70%;
+        left: 550px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 20%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 580px;
+    }
+
+} 
+
+
+@media screen and (max-width: 2600px){
+
+    .season3 {
+        width: 83%;
+        left: 250px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 22%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 325px;
+    }
+
+} 
+
+@media screen and (max-width: 1925px){
+
+    .season3 {
+        width: 83%;
+        left: 160px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 28%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 140px;
+    }
+    
+}
+
+@media screen and (max-width: 1440px){
 
     div.col:nth-child(1){
         margin-left: 70px;
