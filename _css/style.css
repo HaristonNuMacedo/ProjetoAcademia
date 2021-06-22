@@ -30,7 +30,7 @@
     
     left: 120px;
     margin-right: 0px;
-    width: 80%;
+    width: 83%;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
@@ -42,9 +42,79 @@ div.col{
 }
 
 div.col:nth-child(1){
-    margin-left: 70px;
+    margin-left: 55px;
 }
 
 div.col:nth-child(3){
     margin-right: 0px;
 }
+
+
+.d-flex a:hover{
+    background-color: #0e1924;
+}
+
+input.form-control {
+    width: 220px;
+}
+
+.bd-placeholder-img {
+    margin-bottom: 20px;
+}
+
+
+.card-header {
+    background-color: black;
+    color: white;
+}
+
+.card-body {
+    background-color: #353535;
+}
+
+.card-body h1 {
+    color: white;
+}
+
+.list-unstyled li{
+    color: white;
+}
+
+
+
+
+.btn-outline-primary {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+/* BOTÃO DO SERVIÇO MASTER */
+
