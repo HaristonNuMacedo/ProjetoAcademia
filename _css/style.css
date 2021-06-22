@@ -55,7 +55,7 @@ div.col:nth-child(3){
 }
 
 input.form-control {
-    width: 220px;
+    width: 250px;
 }
 
 .bd-placeholder-img {
@@ -112,9 +112,105 @@ input.form-control {
 
 
 
+.shadow-sm2 {
+    border: 3px solid black!important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 2px;
 
+}
 
+.bg-primary {
+    background-color: black!important;
+}
+
+.bg-primary h4{
+    color: white;
+}
 
 
 /* BOTÃO DO SERVIÇO MASTER */
 
+.buttons button {
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    box-shadow: inset 0 0 0 2px white;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.meet::before, .meet::after {
+    box-sizing: inherit;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.draw {
+    transition: color 0.25s;
+}
+  
+.draw::before, .draw::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+}
+  
+.draw::before {
+    top: 0;
+    left: 0;
+}
+  
+.draw::after {
+    bottom: 0;
+    right: 0;
+}
+  
+.draw:hover {
+    color: #60daaa;
+}
+
+.draw:hover::before, .draw:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.draw:hover::before {
+    transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+
+.draw:hover::after {
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+
+.meet:hover {
+    color: black;
+    background-color: #fbca67;
+}
+
+.meet::after {
+    top: 0;
+    left: 0;
+}
+
+.meet:hover::before {
+    border-top-color: black;
+    border-right-color: black;
+}
+
+.meet:hover::after {
+    border-bottom-color: black;
+    border-left-color: black;
+    transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
+}
+
+
+
+  
