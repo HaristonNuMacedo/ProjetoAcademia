@@ -133,6 +133,7 @@ input.form-control {
     background: none;
     border: 0;
     box-sizing: border-box;
+    border-radius: 4px;
     margin: 0;
     text-align: center;
     width: 100%;
@@ -193,6 +194,8 @@ input.form-control {
 .meet:hover {
     color: black;
     background-color: #fbca67;
+    font-weight: 600;
+
 }
 
 .meet::after {
@@ -203,11 +206,13 @@ input.form-control {
 .meet:hover::before {
     border-top-color: black;
     border-right-color: black;
+    border-radius: 4px;
 }
 
 .meet:hover::after {
     border-bottom-color: black;
     border-left-color: black;
+    border-radius: 4px;
     transition: height 0.25s ease-out, width 0.25s ease-out 0.25s;
 }
 
