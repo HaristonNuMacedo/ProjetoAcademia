@@ -1,4 +1,5 @@
 
+
 .season2{
     display: inline-block;
     padding-top: 5px;
@@ -17,6 +18,12 @@
 .container{
     background-color: white;
     margin-top: 30px;
+}
+
+
+.btn {
+    background-color: black;
+    transition: 0.5s;
 }
 
 
@@ -195,6 +202,7 @@ input.form-control {
     color: black;
     background-color: #fbca67;
     font-weight: 600;
+    border: 0px solid transparent;
 
 }
 
