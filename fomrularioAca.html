@@ -21,9 +21,19 @@
         <label class="titulo">LOGIN</label>
         <h4></h4>
 
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Name User</label>
+        <div class="PrimaryLinha" style="display: flex;">
+            <div class="form-floating" style="margin-bottom: 15px; width: 430px; margin-right: 35px;">
+                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></input>
+                <label for="floatingTextarea">Name User</label>
+            </div>
+
+            <div class="form-floating" style="width: 250px;">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" style="font-weight: 600;">
+                <option selected>Não</option>
+                <option value="1">Sim</option>
+                </select>
+                <label for="floatingSelect" style="font-weight: 600; ">Possui Atendimento Especial?</label>
+            </div>
         </div>
 
         <div class="form-floating mb-3">

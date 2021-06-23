@@ -13,7 +13,8 @@
 
 .titulo {
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
 
 }
 
@@ -30,11 +31,20 @@ label.text002{
     position: absolute;
     font-size: 15px;
     margin-top: 13px;
+    font-weight: 600;
 }
 
 img {
     position: fixed;
     height: 800px;
+}
+
+label{
+    font-weight: 600;
+}
+
+option{
+    font-weight: 600; 
 }
 
 
@@ -74,8 +84,8 @@ h5{
     border: 0;
     box-sizing: border-box;
     padding: 1em 6em;
-    box-shadow: inset 0 0 0 2px #e71014;
-    color: #e71014;
+    box-shadow: inset 0 0 0 2px #919191;
+    color: #000000;
     font-size: inherit;
     font-weight: 700;
     position: relative;
@@ -113,7 +123,7 @@ h5{
 }
 
   .draw:hover {
-    color: #2f7257;
+    color: #1a583f;
 }
 
   .draw:hover::before, .draw:hover::after {
