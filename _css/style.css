@@ -1,4 +1,13 @@
 
+.LoginForm {
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+
+.btn-secondary {
+    border: 1px solid white;
+}
 
 .season2{
     display: inline-block;
