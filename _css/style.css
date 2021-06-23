@@ -288,6 +288,8 @@ input.form-control {
 
 .formSeason h2 {
     text-align: center;
+    color: white;
+    padding-top: 15px;
 }
 
 .formSeason form {
