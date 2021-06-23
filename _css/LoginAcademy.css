@@ -11,6 +11,38 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 2px;
 }
 
+.PassWord {
+    display: flex;
+    margin-left: 28px;
+}
+
+.EmalAdd{
+    display: flex;
+    margin-left: 28px;
+}
+
+.imgPudle{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    margin-right: 0px;
+    height: 24px;
+    width: auto;
+}
+
+.imgUser{
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  margin-right: 0px;
+  height: 24px;
+  width: auto;
+}
+
+.form-control{
+    padding-left: 20px;
+}
+
 .btn-secondary {
     border: 1px solid white;
 }
