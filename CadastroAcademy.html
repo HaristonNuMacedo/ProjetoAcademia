@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     
-    <link rel='stylesheet' href='_css/formularioAca.css'>
+    <link rel='stylesheet' href='_css/formCadastro.css'>
+    <link rel='stylesheet' href="botaoFormCadastro/botaoFormStyle.css">
     <link rel="sorcut icon" href="img/logo-amd-black.png" type="image/png" style="width: 16px; height: 16px;">
 </head>
 <body>
@@ -27,19 +28,19 @@
         </div>
         <div class="LoginForm">
 
-            <label style="color: white; text-decoration: none; font-size: 20px; margin-top: 4px;">Caso não tenha efetuado o seu cadastro e acesse aqui! <span>&#10174;</span></label>
+            <label style="color: white; text-decoration: none; font-size: 20px; margin-top: 4px;">Caso não tenha efetuado o seu login e acesse aqui! <span>&#10174;</span></label>
             <button type="button" class="btn btn-secondary" style="background-color: transparent; margin-left: 10px;">
-            <a href="#" style="text-decoration: none; color: white;">Cadastre</a></button>
+            <a href="LoginAcadamy.html" style="text-decoration: none; color: white;">LOGIN</a></button>
 
           </div>
       </nav>
 
-    <img src="img/diferentes-tipos-de-processadores-amd-1-.jpg" class="d-block w-100" alt="...">
+    <img src="img/por-do-sol-pacifico.jpg" class="d-block w-100" alt="...">
 
 
     <form class="formLogin">
         <h3></h3>
-        <label class="titulo">LOGIN</label>
+        <label class="titulo">REALIZAR CADASTRO</label>
         <h4></h4>
 
         <div class="PrimaryLinha" style="display: flex;">
@@ -62,9 +63,16 @@
             <label for="floatingInput">Email address</label>
         </div>
 
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+        <div class="PrimaryLinha" style="display: flex;">
+            <div class="form-floating" style="margin-bottom: 0px; width: 350px; margin-right: 65px;">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+
+            <div class="form-floating" style="margin-bottom: 0px; width: 300px; margin-right: 0px;">
+                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></input>
+                <label for="floatingTextarea">Tel:&#10149; (xx) xxxxx-xxxx</label>
+            </div>
         </div>
 
         <input type="checkbox" class="OTest" onclick="mostrarSenha()"><label class="text002">Mostrar Senha.</label>
@@ -72,7 +80,10 @@
             <script src="js/MostrarSenha.js"></script>
 
         <h5></h5>
-        <section class="buttons"><button class="draw" name="btn-enviar">ENVIAR</button>
+        <!-- 
+        <section class="buttons"><button class="draw" name="btn-enviar">CADASTRAR</button>
+        -->
+
     </form>
 
     

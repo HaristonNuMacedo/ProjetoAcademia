@@ -4,7 +4,7 @@
     text-align: center;
     width: 750px;
     padding: 15px;
-    top: 25%;
+    top: 20%;
     left: 23%;
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.9);
@@ -18,7 +18,7 @@
 @media screen and (min-width: 1440px) {
 
   .formLogin {
-    top: 22%;
+    top: 18%;
     left: 27%;
   }
 
@@ -103,12 +103,16 @@ h5{
 
 
 
+
+
+
+
 .buttons button {
     background: none;
     border: 0;
     box-sizing: border-box;
     padding: 1em 6em;
-    box-shadow: inset 0 0 0 3px #919191;
+    box-shadow: inset 0 0 0 2px #919191;
     color: #000000;
     font-size: inherit;
     font-weight: 700;
@@ -147,8 +151,7 @@ h5{
 }
 
   .draw:hover {
-    color: #083825;
-    font-weight: 700;
+    color: #1a583f;
 }
 
   .draw:hover::before, .draw:hover::after {
@@ -157,14 +160,13 @@ h5{
 }
 
   .draw:hover::before {
-    border-top-color: #000000;
-    border-right-color: #000000;
+    border-top-color: #2f7257;
+    border-right-color: #60daaa;
     transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
 }
 
   .draw:hover::after {
-    border-bottom-color: #000000;
-    border-left-color: #000000;
+    border-bottom-color: #2f7257;
+    border-left-color: #60daaa;
     transition: border-color 0s ease-out 0.3s, width 0.15s ease-out 0.3s, height 0.15s ease-out 0.45s;
 }
-  
