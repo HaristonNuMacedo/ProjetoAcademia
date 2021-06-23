@@ -54,6 +54,24 @@
     
 }
 
+@media screen and (max-width: 1610px){
+
+    .season3 {
+        width: 83%;
+        left: 160px;
+        display: inline-block;
+    }
+
+    div.col{
+        width: 28%;
+    }
+
+    div.col:nth-child(1){
+        margin-left: 115px;
+    }
+    
+}
+
 @media screen and (max-width: 1370px){
 
     .season3 {

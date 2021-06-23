@@ -42,6 +42,11 @@
     width: 90%;
     margin-left: 5%;
     margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+.featurette {
+    margin-bottom: 70px;
 }
 
 
@@ -124,12 +129,14 @@ input.form-control {
 .btn-outline-primary {
     border: 1px solid white;
     color: white;
+    background-color: transparent;
 }
 
 .btn-outline-primary:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+    font-weight: 600;
 }
 
 
@@ -144,6 +151,7 @@ input.form-control {
     background-color: white;
     color: black;
     border: 1px solid black;
+    font-weight: 600;
 }
 
 
@@ -162,6 +170,7 @@ input.form-control {
 
 .bg-primary h4{
     color: white;
+    font-weight: 600;
 }
 
 
@@ -257,4 +266,66 @@ input.form-control {
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+/* Formulário Teste no Site */
+.formSeason {
+    width: 100%;
+    background-color: #212529;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+
+.formSeason h2 {
+    text-align: center;
+}
+
+.formSeason form {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 700px;
+    position: relative;
+    left: 328px; 
+    margin-top: 25px;
+    border: 2px solid black;
+    padding: 25px;
+    color: white;
+}
+
+.formSeason input{
+    padding-left: 25px;
+}
+
+input.form-control {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+textarea.form-control {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style do Rodapé do Site */
+
