@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- Responsivos e Desing visual -->
-    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/UserPageStyle.css">
     <link rel="stylesheet" href="_css/responsivoSeason3.css">
     <link rel="stylesheet" href="_css/responsivoIMG.css">
     <link rel="stylesheet" href="_css/responsivoForm.css">
@@ -19,11 +19,11 @@
 <body style="background-color: rgb(206, 206, 206);">
 
     <!-- MENU DO SITE -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 0px;">
         <div class="container-fluid">
 
           <a class="navbar-brand" href="#" style="font-size: 30px;"><img src="img/amd-white-logo-1260x709.png" 
-                style="width: 130px; height: auto; margin-left: 10px; margin-top: -8px;"></a>
+                style="width: 130px; height: 31px; margin-left: 10px; margin-top: -8px;"></a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,19 +40,63 @@
                 <button type="button" class="btn btn-secondary" style="background-color: transparent; margin-left: 10px;">
                   <a href="#servicos" style="text-decoration: none; color: white;">Nossos Serviços</a></button>
 
-                <div class="LoginForm">
-                  
-                  <button type="button" class="btn btn-secondary" style="background-color: transparent; margin-left: 10px;">
-                    <a href="CadastroAcademy.html" style="text-decoration: none; color: white;">CADASTRE</a></button>
-
-                  <button type="button" class="btn btn-secondary" style="background-color: transparent; margin-left: 10px;">
-                    <a href="LoginAcadamy.html" style="text-decoration: none; color: white;">LOGIN</a></button>
-
-                  <label>No Login</label>
                 </div>
               </ul>
           </div>
         </div>
+
+        <!-- Menu User (Mostrando as informações básicas do usuário) -->
+
+        
+        <li class="dropdown notification-list">
+            <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
+                aria-expanded="false" style="padding: 0px; margin: 0px;">
+                <span class="account-user-avatar"> 
+                    <img src="img/user.png" alt="user-image" class="rounded-circle" width="40px" height="40px" style="background-color: white; border: 1px solid white;">
+                </span>
+                <span>
+                    <span class="account-user-name" style="color: white;">Fabiana Keller</span>
+                    <span class="account-position">Founder</span>
+                </span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
+                <!-- item-->
+                <div class=" dropdown-header noti-title">
+                    <h6 class="text-overflow m-0">Welcome !</h6>
+                </div>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i class="mdi mdi-account-circle me-1"></i>
+                    <span>My Account</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i class="mdi mdi-account-edit me-1"></i>
+                    <span>Settings</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i class="mdi mdi-lifebuoy me-1"></i>
+                    <span>Support</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i class="mdi mdi-lock-outline me-1"></i>
+                    <span>Lock Screen</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i class="mdi mdi-logout me-1"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </li>    
+                          
       </nav>
 
 
@@ -256,8 +300,6 @@
             <input class="btn btn-primary" type="submit" name="btn-enviar" value="Enviar">
         </form>
       </section>
-
-
 
 
 

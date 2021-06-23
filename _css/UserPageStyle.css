@@ -1,20 +1,31 @@
 
-.LoginForm {
-    display: flex;
-    position: absolute;
-    right: 20px;
-}
-
-.LoginForm label{
-    color: white;
-    font-size: 22px;
-    margin-left: 10px;
-    text-decoration: underline;
-}
 
 .btn-secondary {
     border: 1px solid white;
 }
+
+.notification-list{
+    display: flex;
+    bottom: 0px;
+    right: 0px;
+    background-color: #373b3f;
+    padding: 7px;
+    margin-right: 20px;
+    border: 9px solid white;
+    border-bottom: 9px solid #373b3f;
+    border-top: 9px solid #373b3f;
+    
+}
+
+span.account-position{
+    border: 1px solid transparent;
+    border-left: 1px solid white;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    
+
+}
+
 
 .season2{
     display: inline-block;
