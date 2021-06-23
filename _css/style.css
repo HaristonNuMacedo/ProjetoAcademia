@@ -47,6 +47,7 @@
 
 .featurette {
     margin-bottom: 70px;
+    margin-left: 25px;
 }
 
 
@@ -115,6 +116,15 @@ input.form-control {
     background-color: #353535;
 }
 
+.card-body2{
+    background-color: #353535;
+    padding: 15px;
+}
+
+.card-body2:hover {
+    background-color: #b88e3a!important;
+}
+
 .card-body h1 {
     color: white;
 }
@@ -141,6 +151,8 @@ input.form-control {
 
 
 
+
+
 .btn-primary {
     background-color: black;
     color: white;
@@ -158,10 +170,14 @@ input.form-control {
 
 
 
+
 .shadow-sm2 {
     border: 3px solid black!important;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 2px;
+}
 
+.shadow-sm2:hover {
+    background-color: #d6aa53!important;
 }
 
 .bg-primary {
@@ -240,7 +256,7 @@ input.form-control {
 
 .meet:hover {
     color: black;
-    background-color: #fbca67;
+    background-color: #d6aa53;
     font-weight: 600;
     border: 0px solid transparent;
 
@@ -289,7 +305,7 @@ input.form-control {
 .formSeason h2 {
     text-align: center;
     color: white;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .formSeason form {
@@ -316,6 +332,9 @@ textarea.form-control {
     font-size: 20px;
 }
 
+.btn{
+
+}
 
 
 
