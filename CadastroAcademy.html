@@ -70,7 +70,7 @@
             </div>
 
             <div class="form-floating" style="margin-bottom: 0px; width: 300px; margin-right: 0px;">
-                <input class="form-control" placeholder="Leave a comment here" id="floagCel" onkeypress="mascaraCel()" maxlength="15"></input>
+                <input class="form-control" placeholder="Leave a comment here" id="floagCel" pattern="[(]\d{2}[)]\s\d{5}-\d{4}" onkeypress="mascaraCel()" maxlength="15"></input>
                 <label for="floatingTextarea">Tel:&#10149; (xx) xxxxx-xxxx</label>
 
                 <script src="js/script.js"></script>
@@ -85,7 +85,7 @@
         
         <section class="buttons">
             <div class="container">
-                <a href="#" class="btns btn-5">Hover</a>
+                <input class="btns btn-5" type="submit" name="btn-enviar" value="Enviar"></input>
             </div>  
         </section>
         
