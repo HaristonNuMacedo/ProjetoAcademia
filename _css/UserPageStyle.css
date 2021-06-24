@@ -26,6 +26,26 @@ span.account-position{
 
 }
 
+.SairDiv{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    top: 0px;
+    background-color:rgb(58, 96, 201) ;
+}
+
+.SairLogin{
+    position: relative;
+    top: 5px;
+    text-decoration: none; 
+    color: black; 
+    padding-left: 15px;
+
+}
+
+.SairLogin :hover{
+    color: white;
+}
 
 .season2{
     display: inline-block;
