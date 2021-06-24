@@ -47,19 +47,7 @@
     border: 1px solid white;
 }
 
-@media screen and (min-width: 1440px) {
 
-  .formLogin {
-    top: 22%;
-    left: 27%;
-  }
-
-  img {
-    position: fixed;
-    height: 800px;
-}
-
-}
 
 .titulo {
     font-size: 40px;
@@ -200,3 +188,18 @@ h5{
     transition: border-color 0s ease-out 0.3s, width 0.15s ease-out 0.3s, height 0.15s ease-out 0.45s;
 }
   
+
+
+@media screen and (min-width: 1440px) {
+
+  .formLogin {
+    top: 22%;
+    left: 27%;
+  }
+
+  img {
+    position: fixed;
+    height: 800px;
+}
+
+}
