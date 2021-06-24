@@ -38,39 +38,39 @@
     <img src="img/por-do-sol-pacifico.jpg" class="d-block w-100" alt="...">
 
 
-    <form class="formLogin">
+    <form class="formLogin" method="POST" action="conecta.php">
         <h3></h3>
         <label class="titulo">REALIZAR CADASTRO</label>
         <h4></h4>
 
         <div class="PrimaryLinha" style="display: flex;">
             <div class="form-floating" style="margin-bottom: 15px; width: 430px; margin-right: 35px;">
-                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></input>
+                <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea" name="nome"></input>
                 <label for="floatingTextarea">Name User</label>
             </div>
 
             <div class="form-floating" style="width: 250px;">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" style="font-weight: 600;">
-                <option selected>Não</option>
-                <option value="1">Sim</option>
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example" style="font-weight: 600;" name="especial">
+                    <option selected>Não</option>
+                    <option value="1">Sim</option>
                 </select>
                 <label for="floatingSelect" style="font-weight: 600; ">Possui Atendimento Especial?</label>
             </div>
         </div>
 
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
             <label for="floatingInput">Email address</label>
         </div>
 
         <div class="PrimaryLinha" style="display: flex;">
             <div class="form-floating" style="margin-bottom: 0px; width: 350px; margin-right: 65px;">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="senha">
                 <label for="floatingPassword">Password</label>
             </div>
 
             <div class="form-floating" style="margin-bottom: 0px; width: 300px; margin-right: 0px;">
-                <input class="form-control" placeholder="Leave a comment here" id="floagCel" pattern="[(]\d{2}[)]\s\d{5}-\d{4}" onkeypress="mascaraCel()" maxlength="15"></input>
+                <input class="form-control" placeholder="Leave a comment here" name="telefone" id="floagCel" pattern="[(]\d{2}[)]\s\d{5}-\d{4}" onkeypress="mascaraCel()" maxlength="15"></input>
                 <label for="floatingTextarea">Tel:&#10149; (DD) xxxxx-xxxx</label>
 
                 <script src="js/script.js"></script>
