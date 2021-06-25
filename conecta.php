@@ -16,7 +16,7 @@
     $sql .= "'".$_POST['telefone']."',";
     $sql .= "'".$_POST['especial']."')";
 
-    echo $sql;
+
 
     $consulta = mysqli_query($link,$sql);
 
