@@ -2,7 +2,7 @@
 
     $endereco = 'localhost';
     $usuario = 'root';
-    $senha = 'senac';
+    $senha = 'root';
     $banco = 'academiaAMD';
 
     $link = mysqli_connect($endereco,$usuario,$senha,$banco)
