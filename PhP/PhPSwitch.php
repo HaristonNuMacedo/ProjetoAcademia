@@ -15,12 +15,13 @@
 
     <label>Candidato:</label>
     <select name="candidato">
-        <option value="x">[---SELECIONE---]</option>
-        <option value="1">Sebastião</option>
-        <option value="2">Miranda</option>
-        <option value="3">Fabiana</option>
+        <option value="x" name="nulo">[---SELECIONE---]</option>
+        <option value="1" name="cand01">Sebastião</option>
+        <option value="2" name="cand02">Miranda</option>
+        <option value="3" name="cand03">Fabiana</option>
     </select>
     <input type="submit" value="votar" name="voto">
+    <<input type="submit" value="encerrar" name="encerra">
 
 </form>
 
@@ -29,16 +30,47 @@
 if(isset($_POST['voto'])){
 
     $cand = $_POST['candidato'];
+    
+        switch($cand){
+            case(1): 
+                echo 'Votou em Sebastião'; 
+            break;
 
-    switch($cand){
-        case(1): echo 'Votou em Sebastião'; break;
-        case(2): echo 'Votou em Miranda'; break;
-        case(3): echo 'Votou em Fabiana'; break;
-        default: echo 'Voto desperdiçado'; break;
-    }
+            case(2): 
+                echo 'Votou em Miranda';
+            break;
+
+            case(3): 
+                echo 'Votou em Fabiana'; 
+            break;
+
+            default: 
+                echo 'Voto desperdiçado';
+                break;
+        }
+
+        $cand01 = 0;
+        $cand02 = 0; 
+        $cand03 = 0; 
+        $nulo = 0;
+        if ($cand == 1) {
+            $cand01 = $cand01 + 1;
+        } else if ($cand == 2) {
+            $cand02 ++;
+        } else if ($cand03 == 3) {
+            $cand03 ++;
+        } else {
+            $nulo ++;
+        }
+
+    echo 'Votos para cand01: ' . $cand;
 
     //REPETIÇÃO
+} else {
+    echo 'Votações encerradas';
+    
 }
+
 
 ?>
 
