@@ -26,50 +26,61 @@
 </form>
 
 <?php
+if(isset($_COOKIE[$cookie_name])) {
+      setcookie($cookie_c1, 0);
+      setcookie($cookie_c2, 0);
+      setcookie($cookie_c3, 0);
+      setcookie($cookie_n, 0);
+      setcookie($cookie_contador, 1);
+      setcookie($x, 0);
+      setcookie($cookie_vencedor, 0);
+}
 
 if(isset($_POST['voto'])){
 
     $cand = $_POST['candidato'];
     
+    do{
+        $cookie_contador ++;
         switch($cand){
             case(1): 
-                echo 'Votou em Sebastião'; 
+                echo 'Votou em Sebastião'; $cookie_c1 ++;
             break;
 
             case(2): 
-                echo 'Votou em Miranda';
+                echo 'Votou em Miranda'; $cookie_c2 ++;
             break;
 
             case(3): 
-                echo 'Votou em Fabiana'; 
+                echo 'Votou em Fabiana'; $cookie_c3 ++;
             break;
 
             default: 
-                echo 'Voto desperdiçado';
+                echo 'Voto desperdiçado'; $cookie_n ++;
                 break;
         }
 
-        $cand01 = 0;
-        $cand02 = 0; 
-        $cand03 = 0; 
-        $nulo = 0;
-        if ($cand == 1) {
-            $cand01 = $cand01 + 1;
-        } else if ($cand == 2) {
-            $cand02 ++;
-        } else if ($cand03 == 3) {
-            $cand03 ++;
-        } else {
-            $nulo ++;
-        }
+    } while ($_COOKIE[$cookie_contador] < 5);
 
-    echo 'Votos para cand01: ' . $cand;
+        if ($_COOKIE[$cookie_vencedor] <= $_COOKIE[$cookie_c1]) {
+            setcookie($cookie_vencedor, $_COOKIE[$cookie_c1]);
+            $nomeVencedor = 'Sebastião';
+        } 
+        if ($cookie_vencedor <= $_COOKIE[$cookie_c2]) {
+            setcookie($cookie_vencedor, $_COOKIE[$cookie_c2]);
+            $nomeVencedor = 'Miranda';
+        } 
+        if ($cookie_vencedor <= $_COOKIE[$cookie_c3]) {
+            $setcookie($cookie_vencedor, $_COOKIE[$cookie_c3]);
+            $nomeVencedor = 'Fabiana';
+        } 
+
+    echo "<br>Síndico eleito: $_COOKIE[$nomeVencedor], com $_COOKIE[$cookie_vencedor] votos";
+    echo "<br>Votos Nulos: $cookie_n votos.";
+    echo "<br>____FIM!____";
 
     //REPETIÇÃO
-} else {
-    echo 'Votações encerradas';
-    
-}
+} 
 
 
 ?>
