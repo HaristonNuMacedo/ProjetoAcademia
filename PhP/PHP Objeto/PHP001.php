@@ -1,5 +1,5 @@
 <?php
-
+/*
 require_once "model/poduto.php";
 
 $p = new produto();
@@ -21,4 +21,4 @@ echo "Pode compra , sou muito fã (y)";
 
 $db = mysqli_connect("localhost:3306","root","senac","test");
 $sql = "insert into produto values ('$id','$nome','$vlrCompra','$vlrVneda','$qtdEstoque')";
-mysqli_query($db, $sql);
+mysqli_query($db, $sql);*/
