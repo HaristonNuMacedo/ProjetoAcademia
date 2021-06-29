@@ -5,8 +5,6 @@ include_once ('../model/poduto.php');
 
 class daoGenerico {
     public $conn;
-
-    function inserir(Pessoa $p) {
         $conn = new conecta();
         if($conn == true){
             $sql = "inserir into pessoa values (null, '" . $p->getNome() ."',
@@ -17,9 +15,6 @@ class daoGenerico {
             else 
                 return "Erro no cadastramento.";
                 mysqli_close($conn->conectadb());
-    } else {
-        return "Erro de Conecção com o BD.";
     }
-}
 
 }
